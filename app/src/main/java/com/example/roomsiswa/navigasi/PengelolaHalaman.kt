@@ -14,12 +14,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 import com.example.roomsiswa.R
 import com.example.roomsiswa.ui.theme.Halaman.DestinasiEntry
 import com.example.roomsiswa.ui.theme.Halaman.DestinasiHome
 import com.example.roomsiswa.ui.theme.Halaman.EntrySiswaScreen
 import com.example.roomsiswa.ui.theme.Halaman.HomeScreen
 
+@Composable
+fun SiswaApp(navController: NavHostController = rememberNavController()) {
+    HostNavigasi(navController = navController)
+}
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SiswaTopAppBar(
