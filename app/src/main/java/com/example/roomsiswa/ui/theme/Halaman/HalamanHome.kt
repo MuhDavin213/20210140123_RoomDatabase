@@ -65,7 +65,7 @@ fun HomeScreen(
             FloatingActionButton(
                 onClick = navigateToItemEntry,
                 shape = MaterialTheme.shapes.medium,
-                modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_Large))
+                modifier = Modifier.padding(dimensionResource(R.dimen.padding_Large))
             ) {
                 Icon(
                     imageVector = Icons.Default.Add,
@@ -73,7 +73,8 @@ fun HomeScreen(
                 )
             }
         },
-    ) { innerPadding ->
+    ) {
+            innerPadding ->
         val uiStateSiswa by viewModel.homeUiState.collectAsState()
         BodyHome(
             itemSiswa = uiStateSiswa.listSiswa,
