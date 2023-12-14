@@ -1,4 +1,4 @@
-package com.example.roomsiswa.ui.theme.Halaman
+package com.example.roomsiswa.ui.Halaman
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api

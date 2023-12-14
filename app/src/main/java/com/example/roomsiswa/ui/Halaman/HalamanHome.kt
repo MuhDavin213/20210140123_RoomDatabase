@@ -1,4 +1,4 @@
-package com.example.roomsiswa.ui.theme.Halaman
+package com.example.roomsiswa.ui.Halaman
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
